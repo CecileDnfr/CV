@@ -13,6 +13,7 @@ h2, p, li{
 li{
 
 	line-height: 45px;
+	list-style: none;
 }
 
 .cesemed{   
