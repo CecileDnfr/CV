@@ -16,6 +16,10 @@ li{
 	list-style: none;
 }
 
+.colonnes li {
+	list-style: none;
+}
+
 .cesemed{   
     opacity:0;
     -moz-animation: anim 3s linear forwards 2s;
