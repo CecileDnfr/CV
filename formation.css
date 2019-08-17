@@ -13,6 +13,7 @@ h2, p, li{
 li{
 
 	line-height: 45px;
+	list-style: none;
 }
 
 .cesemed{   
@@ -115,9 +116,10 @@ li{
   	width: 50px;
   	height:auto;
   	padding-left: 10px;
+
   }
 
-  #oncovia, #australie{
+  #oncovia, #australie, #planet{
   	width: 85px;
   	height: auto;
   	padding-left: 10px;
@@ -149,10 +151,6 @@ li{
 
 }
 
-.paris {
-
-	padding-left: 0px;
-}
 
 
 .langues img {
@@ -171,17 +169,28 @@ padding-top: 20px;
 
 	padding-left: 20px;
 	padding-bottom: 30px;
+
+}
+.text{
+	display: flex;
+	align-content: flex-end;
+
 }
 
-.anglais, .italien {
+.anglais, .italien, .francais {
 
-	padding-left: 40px;
+	padding-left: 50px;
+
+	padding-bottom: 50px;
+		display:flex;
+	align-items: center;
 }
 
 .italien h2, .francais h2, .anglais h2{
 
 	display: flex;
 	align-items: flex-end;
+	padding-left: 20px;
 
 }
 
@@ -192,7 +201,7 @@ padding-top: 20px;
 
 .italien{
 
-	padding-bottom: 50px;
+	padding-bottom: 200px;
 }
 
 
@@ -206,9 +215,6 @@ margin-left: 450px;
 	margin-top:100px;
 }
 
-#voyage{
-
-}
 
 .colonne1, .colonne2 {
 
@@ -231,9 +237,11 @@ margin-left: 450px;
 
 	padding-left: 600px;
 }
-li{
+a{
 
 		list-style: none;
+		text-decoration:none;
+
 }
 
 .colonne1 h2{
@@ -257,8 +265,49 @@ li{
 
 }
 
-	img:hover, .portfolio:first-child img:hover  {
+	.portfolio img:hover, .portfolio:first-child img:hover  {
 	opacity:1;
 	 transform: scale(1.4);
 }
+
+.onglets li:hover, .onglets:first-child li:hover  {
+	opacity:0.5;
+}
+
+.onglets{
+	margin-left:150px;
+  	margin-right: 150px;
+  	display:flex;
+	align-items: center;
+ 
+}
+
+.onglets li {
+
+	list-style: none;
+	font-family: 'Comfortaa', cursive;
+	float:left;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-right: 65px;
+	text-decoration: none;
+
+
+}
+
+
+
+
+#pola {
+
+	height: 300px;
+	padding-left: 40px;
+}
+
+#small {
+
+	height: 400px;
+	padding-left: 40px;
+}
+
 
