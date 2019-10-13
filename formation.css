@@ -28,11 +28,11 @@ li{
 
 .master{
 	opacity:0;
-    -moz-animation: anim 1s linear forwards  0.6s;
-    -webkit-animation: anim 1s linear forwards  0.6s;
-    -o-animation: anim 1s linear forwards 0.6s;
-    -ms-animation: anim 1s linear forwards   0.6s;
-    animation: anim 1s linear forwards   0.6s;
+    -moz-animation: anim 1s linear forwards  0.4s;
+    -webkit-animation: anim 1s linear forwards  0.4s;
+    -o-animation: anim 1s linear forwards 0.4s;
+    -ms-animation: anim 1s linear forwards   0.4s;
+    animation: anim 1s linear forwards   0.4s;
 
 }
 @-moz-keyframes anim {
@@ -147,7 +147,7 @@ li{
  	padding-left: 15px;
  }
 
-.paris li, .espagne li, .australie li, .cesemed li, .master li, .danemark li {
+.paris li, .espagne li, .australie li, .cesemed li, .master li, .danemark li, .cesemed img {
 
 	display:flex;
 	align-items: center;
