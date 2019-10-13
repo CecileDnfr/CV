@@ -125,14 +125,14 @@ li{
   	padding-left: 10px;
   }
 
-  #evothink, #planetcards {
+  #evothink {
 
 	width: 120px;
 	height: auto;
 	padding-left: 10px;
 }
 
- #spain {
+ #spain, #planetcards {
 
  	width:60px;
  	height: auto;
