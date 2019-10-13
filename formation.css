@@ -132,7 +132,15 @@ li{
 	padding-left: 10px;
 }
 
- #spain, #planetcards {
+ #planetcards {
+	 
+	 width: 10px;
+	 height: auto;
+	 padding-left: 10px;
+	 
+}
+
+ #spain {
 
  	width:60px;
  	height: auto;
