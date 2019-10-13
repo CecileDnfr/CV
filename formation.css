@@ -119,13 +119,13 @@ li{
 
   }
 
-  #planetcards, #oncovia, #australie{
+  #oncovia, #australie{
   	width: 85px;
   	height: auto;
   	padding-left: 10px;
   }
 
-  #evothink {
+  #evothink, #planetcards {
 
 	width: 120px;
 	height: auto;
